@@ -1,0 +1,103 @@
+html, body{
+    /* background-color: gray; */
+    width: 100%;
+    height: 100%;
+    padding: 0%; /*top and bottom  = 0, left and right = 3%*/
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header{
+    /* background-color: brown; */
+    height: 8%;
+}
+header img{
+    height: 90%;
+    margin-left: 10px;
+    /* margin-right: auto; */
+    margin-top: 4px;
+    float: left;
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    float: left;
+    margin-top: 20px;
+}
+header ul li{
+    float: left;
+    margin-left: 20px;
+}
+header button{
+    height: 100%;
+    width: 80px;
+    border: none;
+    float: right;
+    background-color: #006845;
+    color:white;
+    /* transition: 2s; */
+}
+header button:hover{
+    border: 2px solid #006845;
+    background-color: white;
+    color:#006845;
+    cursor: pointer;
+    opacity: 0.3/**/;
+    transition: 2s;
+}
+body .intro{
+    width: 100%;
+    height: 90%;
+    /* background-color: blueviolet; */
+}
+body .intro img{
+    /* height: 100%; */
+    width: 40%;
+    float: left;
+}
+.intro div{
+    float: left;
+    height: 100%;
+    width: 60%;
+    /* background-color: coral; */
+    box-sizing: border-box;
+    padding-top: 280px;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.intro h1,
+.intro p{
+    text-align: right;
+}
+.intro h1{
+    color:#006845;
+}
+.infomation{
+    width: 100%;
+    height: 50%;
+    padding-left: 15%;
+}
+.bg-green{
+    background-color: #006845;
+}
+.infomation img{
+    height: 100%;
+    float: left;
+    position: relative;
+    top: 40px;
+}
+.infomation p{
+    color:white;
+    font-size: 24px;
+    float: left;
+    width: 35%;
+    margin-top: 200px;
+}
+#img-position-custom{
+    top:-40px
+}
+#img-position-custom + p{
+    margin-left: 200px;
+}

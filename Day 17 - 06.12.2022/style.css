@@ -1,0 +1,63 @@
+html, body{
+    width: 100%;height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 70%;
+    height: 70%;
+    margin-left: auto;
+    margin: auto;
+    margin-top: 100px;
+    background-color: indianred;
+
+    display: flex; /*chon flex*/
+    flex-direction: row-reverse; /*chon huong sap xep cho flex : col/row, col/row-reverse - truc dc chon la truc chinh: main axis  */ 
+    justify-content: space-evenly;/* chon cach sap xep cac item trong flex container - phan bo khoang cach*/
+
+    /* Sap xep cac item tren truc phu:  */
+    align-items: flex-start;
+
+    /* flex-wrap: wrap; */
+}
+
+.container div{
+    width: 50%;
+}
+
+.item-1{
+    background-color: blue;
+    /* align-self: flex-start; */
+}
+
+.item-2{
+    background-color:aquamarine;
+    align-self: stretch;
+    flex-grow: 2;
+}
+
+.item-3{
+    background-color: burlywood;
+    align-self: flex-start;
+    flex-shrink: 2;
+}
+
+.item-4{
+    background-color: darkgoldenrod;
+    align-self: flex-start;
+    flex-grow: 3;
+    order:0;
+}
+
+.item-5{
+    background-color: chartreuse;
+    align-self: flex-start;
+    flex-shrink: 3;
+}
+
+
+

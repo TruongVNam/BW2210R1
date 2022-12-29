@@ -1,0 +1,10 @@
+@mixin img2($w, $h, $bRadius){
+    width: $w;
+    height: $h;
+    border-radius: $bRadius;
+}
+
+img{
+    @include img2 (500px, 700px);
+}
+
