@@ -769,6 +769,20 @@ section {
   color: #0eb582;
 }
 
+@media screen and (min-width: 1370px) {
+  .courses .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 1369px) {
+  .courses .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   section {
     padding: 3rem 5%;
